@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Anniversary💙</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif;}
+body{
+    background: linear-gradient(135deg, #87cefa, #f0f8ff, #b0e0e6);
+    color:black; /* စာသားအမဲ */
+    overflow-x:hidden;
+}
+
+/* Intro Animation */
+.intro{
+    position:fixed;
+    width:100%;
+    height:100vh;
+    background:#87cefa;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:2rem;
+    color:black; /* အမဲစာသား */
+    z-index:100;
+    animation:fadeOut 4s forwards;
+}
+@keyframes fadeOut{
+    0%{opacity:1;}
+    80%{opacity:1;}
+    100%{opacity:0;visibility:hidden;}
+}
+
+/* Floating Circles */
+.circle{
+    position:fixed;
+    border-radius:50%;
+    background:rgba(255,255,255,0.2);
+    animation:float 12s infinite ease-in-out;
+}
+.circle:nth-child(2){width:200px;height:200px;top:10%;left:5%;}
+.circle:nth-child(3){width:150px;height:150px;bottom:10%;right:10%;}
+@keyframes float{
+    0%{transform:translateY(0);}
+    50%{transform:translateY(-40px);}
+    100%{transform:translateY(0);}
+}
+
+/* Header */
+header{
+    text-align:center;
+    padding:80px 20px;
+}
+header h1{
+    font-size:3rem;
+    color:black; /* header အမဲ */
+    text-shadow:none; /* glow ဖျက် */
+}
+header p{
+    margin-top:15px;
+    color:black; /* header sub text အမဲ */
+}
+
+/* Section */
+.section{
+    width:90%;
+    max-width:1100px;
+    margin:50px auto;
+    padding:40px;
+    border-radius:25px;
+    background: rgba(255,255,255,0.6);
+    backdrop-filter:blur(10px);
+    box-shadow:0 0 40px rgba(135,206,250,0.3);
+    position:relative;
+    overflow:hidden;
+}
+.section::before{
+    content:"";
+    position:absolute;
+    top:-50%;
+    left:-50%;
+    width:200%;
+    height:200%;
+    background:radial-gradient(circle at center, rgba(255,255,255,0.2) 0%, transparent 70%);
+    animation:shimmer 8s infinite linear;
+}
+@keyframes shimmer{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
+
+.section h2{
+    color:black; /* section heading အမဲ */
+    margin-bottom:20px;
+    text-align:center;
+}
+
+/* Gallery */
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:25px;
+}
+.gallery img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:20px;
+    transition:0.5s;
+    box-shadow:0 0 20px rgba(135,206,250,0.4);
+}
+.gallery img:hover{
+    transform:scale(1.07);
+    box-shadow:0 0 50px rgba(0,191,255,0.6);
+}
+
+/* Message */
+.message{
+    line-height:1.8;
+    margin-top:20px;
+    color:black; /* message text အမဲ */
+    font-size:16px;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:40px;
+    color:black; /* footer အမဲ */
+    font-weight:bold;
+    font-size:16px;
+}
+</style>
+</head>
+<body>
+
+<div class="intro">Happy Anniversary💙5.3.2026</div>
+<div class="circle"></div>
+<div class="circle"></div>
+
+<audio autoplay loop id="bgmusic">
+    <source src="image pic/a.m4a" controls>
+</audio>
+
+<header>
+    <h1>Happy Anniversary prr(●'◡'●) </h1>
+    <p>Since 5.3.2026 — Our Beautiful Journey Begins</p>
+</header>
+
+<div class="section">
+    <h2>Our Memories☆*: .｡. o(≧▽≦)o .｡.:*☆</h2>
+    <div class="gallery">
+        <img src="image pic/shy.jpg">
+        <img src="image pic/you.jpg">
+        <img src="image pic/me.jpg">
+        <img src="image pic/uuu.jpg">
+        <img src="image pic/flower.jpg">
+        <img src="image pic/yyy.jpg">
+    </div>
+</div>
+
+<footer>Made With Endless Love 💙</footer>
+
+</body>
+</html>
+<div class="section">
+    <h2 style="color:#a8d8ff;">ကျွန်တော့်ရန်တွက်စာလေးပါဗျာ့ 💌</h2>
+    <div class="message">
+       ခင်ဗျားနဲ့စကား ပြောလိုက်တဲ့အချိန်တိုင်းကကျွန်တော့်ရင်ခုန်သံတွေက ကာရံစည်းချက်မညီဘဲခုန်ပေါက်လာ စေတော့တာဘဲရန်ရဲ့
+ခင်ဗျားရဲ့ဖြစ်တည်မှုလေးကသူများတွေအတွက်ဘယ်လိုရှိနေမလဲခန့်မှန်းမရပေမဲ့ကျွန်တော့အတွက်တော့တန်းဖိုးဖြတ်မရတဲ့အရာရာလေး ကျွန်တော်တို့အကြိမ်ကြိမ်ပြတ်ခဲ့ပေမဲ့မခွဲနိုင်ကြသလိုရှေးဘဝကအတိတ်ရေစက်တွေကြောင့်ထင်ပါတယ်မခွဲနိုင်ဘဲချစ်နေကြတုန်းဘဲ ကျွန်တော့ကိုဆိုးတယ်တဲ့ရန်က ကျွန်တော်ကအချစ်ရူးလေးပါဗျာ ရန်က ကျွန်တော်ဆိုးရင်ကျွန်တော့ကိုဂရုစိုက်လို့ဆိုးမိတာပါ နောက်ပိုင်းတော့လိမ္မာလာပါပြီ လိမ္မာယဥ်ကျေးတဲ့ရန့်ကလေးလေးလုပ်ဖို့ပေါ့လေ（〃｀ 3′〃）
+        <br><br>
+      ရန့်ရဲ့အပြုံး၊ ရန့်ရဲ့အသံ၊ ရန့်ရဲ့တည်ရှိမှု တစ်ခုချင်းစီဟာ ကျွန်တော့်ဘ၀ကို အလင်းရောင်နဲ့ ပြည့်စေတယ်။ပိုတယ်ထင်နိုင်ပေမဲ့လူတစ်ယောက်ကိုချစ်မိသွားရင်အဲ့လူကိုကိုယ့်ရဲ့အရှင်သခင်လိုဘဲမြင်ယောင်နေမိသလိုဘဲရန်ကလည်းကျွန်တော့်အရှင်သခင် နှလုံးသားရဲ့ပိုင်ရှင်လေးဗျာ့။
+ရန်နဲ့အတူ ရှိနေရတဲ့ နာရီ၊မိနစ်တိုင်းက ကျွန်တော့်အတွက် အမှတ်တရတွေပြည့်နေပြီး  တန်ဖိုးရှိလွန်းလှတယ်။ရန့်ကို ချစ်ရတာက ကျွန်​ေတာ့်ဘဝရဲ့ အဓိက အရာဖြစ်နေပါလေရော။ရန့်ကိုစတဲ့ဓာတ်တိုင်ဆိုတာမှာရန်ကပြောပါသေးရဲ့အလင်းပြတယ်တဲ့ ကျွန်တော့ဘဝကိုရန်ကအလင်းပြခဲ့တာ။ရန်က ကျွန်တော်မလိမ္မာရင်ဆုံးမတယ်။ရင့်ကျက်ဖို့သင်ပေးခဲ့တယ်။ရန်ဖွင့်မပြောတတ်ပေမဲ့ကျွန်တော့ကိုချစ်တာခံစားမိပါတယ်။ရန်ကောင်းစေချင်လို့ပြောတာတွေကိုငယ်တုန်းကတော့မမြင်နိုင်ခဲ့ဘူးအခုတော့သေချာမြင်နိုင်နေပါပြီဗျာ
+သိပ်ချစ်တယ်ရန် 
+ကြူးတယ်ထင်မလားမသိပေမဲ့
+သိပ်မြတ်နိုးရပါတယ်
+ပျော်ရွှင်စရာတစ်လပြည့်လေးပါဗျာ
+    </div>
+</div>
+
+
+<footer>ချစ်တယ်ဗျာ့အာဘွား 💙</footer>
+</body></html>
